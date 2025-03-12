@@ -25,8 +25,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "clean": "rimraf ./dist .turbo",
     "build": "yarn clean && tsc",
-    "clean": "rm -rf ./dist .turbo || true",
     "format": "prettier --config .prettierrc --write \"src\"",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"

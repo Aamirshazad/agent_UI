@@ -53,7 +53,7 @@ export interface CreateAssistantFields {
      * The name of the Lucide icon to use for the assistant.
      * @default "User"
      */
-    iconName: string;
+    iconName: string; 
     /**
      * The hex color code to use for the icon.
      */

@@ -113,15 +113,6 @@ export const ProgrammingLanguagesDropdown = ({
 }) => {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          className="text-gray-500 hover:text-gray-700 transition-colors ease-in rounded-2xl flex items-center justify-center gap-2 w-[250px] h-[64px]"
-        >
-          New Code File
-          <Code />
-        </Button>
-      </DropdownMenuTrigger>
       <DropdownMenuContent className="max-h-[600px] w-[250px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
         <DropdownMenuLabel>Languages</DropdownMenuLabel>
         {LANGUAGES.map((lang) => (
