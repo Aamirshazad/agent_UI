@@ -56,7 +56,7 @@ interface CreateEditAssistantDialogProps {
   setAllDisabled: Dispatch<SetStateAction<boolean>>;
 }
 
-const GH_DISCUSSION_URL = `https://github.com/langchain-ai/open-canvas/discussions/182`;
+const GH_DISCUSSION_URL = `https://github.com/langchain`;
 
 const SystemPromptWhatsThis = (): React.ReactNode => (
   <span className="flex flex-col gap-1 text-sm text-gray-600">

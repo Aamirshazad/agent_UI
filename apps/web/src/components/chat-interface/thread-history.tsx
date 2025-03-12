@@ -255,7 +255,7 @@ export function ThreadHistoryComponent(props: ThreadHistoryProps) {
       >
         <SheetTitle>
           <TighterText className="px-2 text-lg text-gray-600">
-            Chat History
+            Content History
           </TighterText>
         </SheetTitle>
 
